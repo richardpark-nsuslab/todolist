@@ -1,0 +1,18 @@
+section{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+.card-body{
+    width: 100%;
+}
+.non-text{
+    border: 1px solid red;
+}
+.card{
+    margin-bottom: 16px;
+}
+.card .card-num{
+    margin-bottom: 6px;
+}

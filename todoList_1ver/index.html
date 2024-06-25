@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+    <h1>TO DO LIST.</h1>
+
+        <form action="">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">제목</label>
+                <input type="text" class="form-control" id="todoTitle">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">할 일</label>
+                <textarea class="form-control" id="todoText" rows="3"></textarea>
+            </div>
+            <button type="button" class="btn btn-primary btn-lg" id="save">Save</button>
+            <button type="button" class="btn btn-secondary btn-lg" id="clear">Clear</button>
+        </form>
+    </section>
+
+    <section class="card_list">
+
+    </section>
+    
+
+<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</body>
+</html>
