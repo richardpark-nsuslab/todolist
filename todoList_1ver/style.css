@@ -7,6 +7,12 @@ section{
 .card-body{
     width: 100%;
 }
+.card-body input{
+    display: block;
+}
+.card-body button{
+    margin-top: 16px;
+}
 .non-text{
     border: 1px solid red;
 }
